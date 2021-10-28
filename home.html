@@ -1,8 +1,16 @@
 <html>
   <body style="background-color:#FFC0CB" ;="">
+function ValidatePassword() {
 
+  var password = prompt("Please enter password to proceed", "");
+
+  if (password == "BRETSUX") {
+    return true;
+  }
+  return false;
+}
 <div style="text-align: center">
-    <a href="https://dfedonni.github.io" > 
+    <a href="https://dfedonni.github.io" id="HyperLink1" onclick="return ValidatePassword();" > 
     <img src="https://dfedonni.github.io/love%20gif.gif" width="500" height="600">
 </a>
 
