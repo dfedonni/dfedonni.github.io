@@ -1,0 +1,58 @@
+<html>
+<style>
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: #111;
+}
+.left {
+    width: 20%;
+    float: left;
+    margin: 0 10px;
+}
+.right{
+    width: 75%;
+    float: right;
+    margin: 0 10px;
+}
+
+</style>
+</head>
+<body>
+
+
+<ul>
+  <li><a class="active" href="https://dfedonni.github.io/home.html">Home</a></li> 
+  <li><a class="active" href="https://dfedonni.github.io/ceremony.html">Ceremony</a></li>
+  <li><a class="active" href="https://dfedonni.github.io/reception.html">Reception</a></li>
+  <li><a href="https://dfedonni.github.io/accommodations.html">Accommodations</a></li>
+  <li><a href="https://dfedonni.github.io/covid.html">COVID-19</a></li>
+  <li><a href="https://dfedonni.github.io/rsvp.html">RSVP</a></li>
+  <li><a href="https://dfedonni.github.io/fun.html">Registry</a></li>
+  <li><a href="https://dfedonni.github.io/philly.html">Philadelphia Sights</a></li>
+</ul>
+
+
+<body>
+<h1> check out the shrek box on 7th st</h1>
+<img src=https://d.newsweek.com/en/full/1846162/shrek-box-philadelphia.jpg?w=600&e=e758ff90ebf006cd4b579386852de916>
+</body>
+</html>
