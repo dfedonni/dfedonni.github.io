@@ -1,4 +1,6 @@
+<!DOCTYPE html>
 <html>
+<head>
 <style>
 ul {
   list-style-type: none;
@@ -23,16 +25,20 @@ li a {
 li a:hover {
   background-color: #111;
 }
-.left {
-    width: 45%;
-    float: left;
-    margin: 0 10px;
+.float-container {
+	display:flex;
+    width:100%
 }
-.right{
-    width: 45%;
-    float: right;
-    margin: 0 10px;
-}.button {
+
+.left {
+margin-right: 10px;
+  width:50%;
+} 
+.right{ 
+  width:50%;
+    
+    
+} .button {
   border: none;
   color: white;
   padding: 16px 32px;
@@ -57,8 +63,6 @@ li a:hover {
 
 </style>
 </head>
-<body>
-
 
 <ul>
   <li><a class="active" href="https://dfedonni.github.io/home.html">Home</a></li> 
@@ -70,22 +74,21 @@ li a:hover {
   <li><a href="https://dfedonni.github.io/registry.html">Registry</a></li>
   <li><a href="https://dfedonni.github.io/philly.html">Philadelphia Sights</a></li>
 </ul>
-	<body/>
-<head>
+
+<body>
+<div class="float-container">
 	<div class="left">
-	<p>What we want most for our wedding is to have all of our friends
-		and family there to celebrate the occasion with us, and so,
-		more than anything we would simply enjoy your presence.</p>
-	<p>That being said, if you would like to give a gift, we would appreciate a contribution to help make our honeymoon
-	    unforgetable. If that's not your bag baby, we also created a small
-	    registry. 
-	
-	</div class="left">
-	<div class="right">
-		<br><br>
-		<a href="https://www.crateandbarrel.com/gift-registry/brett-nedelkoff/r6406770" class="button button1">Registry</a>
-	</div class=r"ight">
-</style>
-</head>
+   	
+	<p>What we want most for our wedding is to have all of our friends and family there to celebrate the occasion with us, and so, more than anything we would simply enjoy your presence.</p>
+	<p>That being said, if you would like to give a gift, we would appreciate a contribution to help make our honeymoon unforgetable. If that's not your bag baby, we also created a small registry. 
+  </p>
+											  
+    </div>
+    
+    <div class="right" style="position:static;"  >
+	<center>	<a href="https://www.crateandbarrel.com/gift-registry/brett-nedelkoff/r6406770" class="button button1">Registry</a><center>
+	</div>
+ </div>
+
 </body>
 </html>
