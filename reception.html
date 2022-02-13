@@ -1,4 +1,6 @@
+<!DOCTYPE html>
 <html>
+<head>
 <style>
 ul {
   list-style-type: none;
@@ -23,26 +25,23 @@ li a {
 li a:hover {
   background-color: #111;
 }
-
 .float-container {
-	padding:10px;
-	}
+	display:flex;
+    width:100%
+}
+
 .left {
-    width: 40%;
-    height: auto;
-    float: left;
-    padding 10px;
-}
-	.right {
-    width: 60%;
-    height: auto;
-    float: left;
-    padding 10px;
-}
+margin-right: 10px;
+  width:30%;
+}  
+.right{ 
+  width:70%;
+    
+    
+} 
+
 </style>
 </head>
-<body>
-
 
 <ul>
   <li><a class="active" href="https://dfedonni.github.io/home.html">Home</a></li> 
@@ -54,11 +53,11 @@ li a:hover {
   <li><a href="https://dfedonni.github.io/registry.html">Registry</a></li>
   <li><a href="https://dfedonni.github.io/philly.html">Philadelphia Sights</a></li>
 </ul>
-	
-<body><body/>
-	<div class="float-container">
+
+<body>
+<div class="float-container">
 	<div class="left">
-	<p><strong> The Reception</strong> 5pm-10pm(after party 10pm-1am)</p> 
+   	<p><strong> The Reception</strong> 5pm-10pm(after party 10pm-1am)</p> 
 	<p>The reception is located about a mile west of the ceremony at the Racquet Club of Philadelphia,
 		<strong>215 S 16th St, Philadelphia, PA 19102</strong>.</p>
 	<p>Cocktail hour at the reception will start 30 minutes after the ceremony around 5pm.
@@ -73,11 +72,12 @@ li a:hover {
 	<p><strong>COVID Policy</strong>
 	Please bring proof of vaccination to the reption. According to city regulations,
 	only guest who provide proof of vaccination are allowed inside.</p>
-		</div>
-	<div class="right">
-			<img src="https://rcop.com/wp-content/uploads/2014/08/JKayDesignStudio_2014_RCOP-8-21.jpg" >
-		</div>
-		</div>
-	
-  
+    </div>
+    
+    <div class="right" style="position:static;"  >
+	<center>	<img src="https://rcop.com/wp-content/uploads/2014/08/JKayDesignStudio_2014_RCOP-8-21.jpg" style="width: 80%"><center>
+	</div></div>
+ </div>
+
+</body>
 </html>
