@@ -1,3 +1,4 @@
+<!DOCTYPE html>
 <html>
 <head>
 <style>
@@ -23,15 +24,24 @@ li a {
 
 li a:hover {
   background-color: #111;
-}.directions {
-    width: 380px;
-    height: auto;
-    float: left;
-    margin: 0 10px;
 }
+.float-container {
+	display:flex;
+    width:100%
+}
+
+.left {
+margin-right: 10px;
+  width:30%;
+}  
+.right{ 
+  width:70%;
+    
+    
+} 
+
 </style>
 </head>
-<body>
 
 <ul>
   <li><a class="active" href="https://dfedonni.github.io/home.html">Home</a></li> 
@@ -40,18 +50,27 @@ li a:hover {
   <li><a href="https://dfedonni.github.io/accommodations.html">Accommodations</a></li>
   <li><a href="https://dfedonni.github.io/covid.html">COVID-19</a></li>
   <li><a href="https://dfedonni.github.io/rsvp.html">RSVP</a></li>
-  <li><a href="https://dfedonni.github.io/fun.html">Registry</a></li>
+  <li><a href="https://dfedonni.github.io/registry.html">Registry</a></li>
   <li><a href="https://dfedonni.github.io/philly.html">Philadelphia Sights</a></li>
 </ul>
-	
-	<body <body/>
-    <div class="directions">
-  <p>	 The Racquet Club of Philadelphia requires all guest to provide proof of vaccination. A negative test <strong> will not </strong>
+
+<body>
+<div class="float-container">
+	<div class="left">
+   	
+	  <p>	 The Racquet Club of Philadelphia requires all guest to provide proof of vaccination. A negative test <strong> will not </strong>
 	  be accepted in place of a CDC issued vaccine document. We do however, encourage everyone traveling for the ceremony to test before hand
 	  and to stay home if you are feeling ill.  Masks are optional at the reception but must be worn inside the Church. 
 	  We understand that this is annoying, we just hope for everyone to stay safe and have fun!
 	  If any policy should change we will keep everyone informed.
   </p>
+											  
+    </div>
+    
+    <div class="right" style="position:static;"  >
+	<center>	<img src="https://www.statnews.com/wp-content/uploads/2020/02/Coronavirus-CDC-1600x900.jpg" style="width: 80%"><center>
 	</div>
-	    
-	    </h2>
+ </div>
+
+</body>
+</html>
