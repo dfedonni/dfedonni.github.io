@@ -1,4 +1,6 @@
+<!DOCTYPE html>
 <html>
+<head>
 <style>
 ul {
   list-style-type: none;
@@ -24,26 +26,22 @@ li a:hover {
   background-color: #111;
 }
 .float-container {
-	 border: 3px solid #fff;
-    padding: 20px;
-	}
+	display:flex;
+    width:100%
+}
+
 .left {
-    width: 40%;
-    height: auto;
-    float: left;
-    padding 10px;
-}
-	.right {
-    width: 60%;
-    height: auto;
-    float: left;
-    padding 10px;
-}
+margin-right: 10px;
+  width:30%;
+}  
+.right{ 
+  width:70%;
+    
+    
+} 
 
 </style>
 </head>
-<body>
-
 
 <ul>
   <li><a class="active" href="https://dfedonni.github.io/home.html">Home</a></li> 
@@ -55,11 +53,11 @@ li a:hover {
   <li><a href="https://dfedonni.github.io/registry.html">Registry</a></li>
   <li><a href="https://dfedonni.github.io/philly.html">Philadelphia Sights</a></li>
 </ul>
-	
-	<body>
-	<div class="float-container">
-		<div class="left">
-			<p ><strong>Ceremony</strong></p>
+
+<body>
+<div class="float-container">
+	<div class="left">
+   	<p ><strong>Ceremony</strong></p>
 		<p>  
 			The wedding ceremony will begin at <strong>3:30pm</strong> at Old St. Joesph's Church. 
 	     Old St. Joesph's is located at <strong>321 Willings Alley, Philadelphia, PA 19106</strong>.
@@ -69,13 +67,12 @@ li a:hover {
 		<a href=https://oldstjoseph.org/wp-content/uploads/2019/08/4.-Parking.pdf> here.</a> Since parking at the ceremony and reception
 		will likely be a hastle, we would recommend calling acab. 
 											  </p>
-											  </div> 
-	
-   <div class="right">
-			<img src="https://digital.librarycompany.org/islandora/object/digitool:97378/datastream/JPG/view" >
-		</div>
-		</div>
-	
-  
+    </div>
+    
+    <div class="right" style="position:static;"  >
+	<center>	<img src="https://digital.librarycompany.org/islandora/object/digitool:97378/datastream/JPG/view" style="width: 80%"><center>
+	</div></div>
+ </div>
+
+</body>
 </html>
- 
