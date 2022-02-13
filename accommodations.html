@@ -1,4 +1,6 @@
+<!DOCTYPE html>
 <html>
+<head>
 <style>
 ul {
   list-style-type: none;
@@ -24,26 +26,22 @@ li a:hover {
   background-color: #111;
 }
 .float-container {
-	 border: 3px solid #fff;
-    padding: 20px;
-	}
-.left {
-    width: 40%;
-    height: auto;
-    float: left;
-    padding 10px;
-}
-	.right {
-    width: 60%;
-    height: auto;
-    float: left;
-    padding 10px;
+	display:flex;
+    width:100%
 }
 
+.left {
+margin-right: 10px;
+  width:30%;
+}  
+.right{ 
+  width:70%;
+    
+    
+} 
 
 </style>
 </head>
-<body>
 
 <ul>
   <li><a class="active" href="https://dfedonni.github.io/home.html">Home</a></li> 
@@ -55,12 +53,12 @@ li a:hover {
   <li><a href="https://dfedonni.github.io/registry.html">Registry</a></li>
   <li><a href="https://dfedonni.github.io/philly.html">Philadelphia Sights</a></li>
 </ul>
-	
-	<head></head>
-	<body>
-		<div class="float-container">
-		<div class="left">
-			<p ><strong>Accommodations</strong></p>
+
+<body>
+<div class="float-container">
+	<div class="left">
+   	
+		<p ><strong>Accommodations</strong></p>
 		<p>  We have blocked off rooms at two hotels within a few blocks of the reception.</p>
 			<p> <strong>DoubleTree by Hilton Hotel Philadelphia Center City </strong></p>
 			<p>237 South Broad Street, Philadelphia, PA 19107</p>
@@ -72,12 +70,14 @@ li a:hover {
 		<br>
 			<p> Additionally, there are many other hotels located near the reception and ceremony.If you are interested in staying in
 			any other neighborhoods in Philadelphia give Dani or Brett a call and we can give you some recommendations on fun 
-			neighborhoods to visit.</p>	
-	
-		</div> 
-		<div class="right">
-		<img src="https://s3.amazonaws.com/adg-bucket/philadelphia-city-hall/2329-medium.jpg">
-		</div>
-	</body>	
-  
+			neighborhoods to visit.</p>
+											  </p>
+    </div>
+    
+    <div class="right" style="position:static;"  >
+	<center>	<img src="https://s3.amazonaws.com/adg-bucket/philadelphia-city-hall/2329-medium.jpg" style="width: 80%"><center>
+	</div>
+ </div>
 
+</body>
+</html>
